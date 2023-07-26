@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    /* height: 5000px; */
+    min-width: 300px;
+}
+
+.links-info:hover, .links-info {
+    color: green !important;
+}
+
+#search-btn {
+    font-size: 0%;
+}
+
+.imagem-observacao{
+    width: 1100px;
+    height: 500px;
+}
+
+.separar-linhas{
+    white-space: pre-line;
+}
+
+.separa{
+    white-space: pre-wrap;
+}
+
+#search-btn:hover,
+#search-btn:active {
+    background-color:#006400 !important;
+    color: #FFF !important;
+}
+
+.custom-text {
+    font-size: 20px;
+}
+
+.image-container {
+    position: relative;
+    width: 550px; /* Largura da imagem */
+    height: 350px; /* Altura da imagem */
+    overflow: hidden;
+    margin-bottom: 30px; /* Adicionando uma margem inferior de 30 pixels */
+}
+
+.description-container {
+position: absolute;
+top: 0;
+left: 0;
+width: 60%;
+height: 75%;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 20px;
+background-color: rgba(0, 0, 0, 0.6); /* Fundo preto semi-transparente */
+color: white; /* Cor do texto */
+}
+
+.description {
+width: 100%;
+height: 100px; /* Altura fixa da descrição */
+}
+
+.description p {
+margin: 0;
+}
+  
+.btn {
+margin-top: 10px;
+}
+
+footer {
+background-color: #19882c;
+}
+
+footer * {
+color: #FFF;
+}
+
+.with-line-break {
+white-space: pre-line;
+}
