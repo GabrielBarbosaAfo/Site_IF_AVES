@@ -38,10 +38,10 @@ color: #fff !important;
 }
 
 .titulo-estilizado {
-font-family: "Montserrat", sans-serif; /* Exemplo de uma fonte padrão */
+font-family: "Montserrat", sans-serif; /* Fonte*/
 font-size: 36px; /* Tamanho da fonte */
 color: black; /* Cor do texto */
-text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra de texto */
+/*text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra de texto */
 margin-top: 20px; /* Margem superior para dar espaço */
 /*font-weight: bold; /* Texto em negrito */
 /*text-transform: uppercase; /* Transforma o texto em maiúsculas */
@@ -107,7 +107,6 @@ color: #fff;
 footer {
 background-color: #19882c;
 color: #fff;
-padding: 15px 0;
 text-align: center;
 }
 
@@ -126,144 +125,62 @@ padding-left: 5px;
 
 /* Estilos para dispositivos pequenos (até 576px) */
 @media (max-width: 576px) {
-    .container {
-        padding-left: 15px;
-        padding-right: 15px;
+    .titulo-estilizado {
+        font-size: 24px; /* Reduzindo o tamanho do título */
     }
 
-    .navbar-nav {
-        flex-direction: column;
-        align-items: center;
+    .paragrafo-estilizado {
+        font-size: 16px; /* Reduzindo o tamanho do parágrafo */
     }
 
-    .navbar-nav .nav-item {
-        margin-bottom: 5px;
+    .imagens-passaros {
+        margin-bottom: 15px; /* Espaçamento entre as imagens */
     }
 
-    .image-container {
-        height: auto;
-    }
-
-    .description-container {
-        position: relative;
-        width: 100%;
-        height: auto;
-        padding: 10px;
-    }
-
-    .description {
-        text-align: center;
-    }
-
-    .btn {
-        margin-top: 10px;
+    .espaco-direita,
+    .espaco-esquerda {
+        padding-right: 0;
+        padding-left: 0;
     }
 }
 
 /* Estilos para dispositivos médios (maiores que 576px) até 768px */
 @media (min-width: 577px) and (max-width: 768px) {
-    .container {
-        padding-left: 15px;
-        padding-right: 15px;
+    .titulo-estilizado {
+        font-size: 28px; /* Tamanho do título para dispositivos médios */
     }
 
-    .navbar-nav {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .navbar-nav .nav-item {
-        margin-bottom: 5px;
-    }
-
-    .image-container {
-        height: auto;
-    }
-
-    .description-container {
-        position: relative;
-        width: 100%;
-        height: auto;
-        padding: 10px;
-    }
-
-    .description {
-        text-align: center;
-    }
-
-    .btn {
-        margin-top: 10px;
+    .paragrafo-estilizado {
+        font-size: 18px; /* Tamanho do parágrafo para dispositivos médios */
     }
 }
 
-/* Estilos para dispositivos médios e grandes (maiores que 768px) até 992px */
+/* Estilos para dispositivos grandes (maiores que 768px) até 992px */
 @media (min-width: 769px) and (max-width: 992px) {
-    .container {
-        padding-left: 15px;
-        padding-right: 15px;
+    .titulo-estilizado {
+        font-size: 32px; /* Tamanho do título para dispositivos grandes */
     }
 
-    .navbar-nav {
-        flex-direction: column;
-        align-items: center;
+    .paragrafo-estilizado {
+        font-size: 20px; /* Tamanho do parágrafo para dispositivos grandes */
     }
 
-    .navbar-nav .nav-item {
-        margin-bottom: 5px;
-    }
-
-    .image-container {
-        height: auto;
-    }
-
-    .description-container {
-        position: relative;
-        width: 100%;
-        height: auto;
-        padding: 10px;
-    }
-
-    .description {
-        text-align: center;
-    }
-
-    .btn {
-        margin-top: 10px;
+    .imagens-passaros {
+        margin-bottom: 30px; /* Espaçamento entre as imagens */
     }
 }
 
-/* Estilos para dispositivos grandes (maiores que 992px) até 1200px */
-@media (min-width: 993px) and (max-width: 1200px) {
-    .container {
-        padding-left: 15px;
-        padding-right: 15px;
+/* Estilos para dispositivos ainda maiores (maiores que 992px) */
+@media (min-width: 993px) {
+    .titulo-estilizado {
+        font-size: 36px; /* Tamanho do título para dispositivos maiores */
     }
 
-    .navbar-nav {
-        flex-direction: column;
-        align-items: center;
+    .paragrafo-estilizado {
+        font-size: 24px; /* Tamanho do parágrafo para dispositivos maiores */
     }
 
-    .navbar-nav .nav-item {
-        margin-bottom: 5px;
-    }
-
-    .image-container {
-        height: auto;
-    }
-
-    .description-container {
-        position: relative;
-        width: 100%;
-        height: auto;
-        padding: 10px;
-    }
-
-    .description {
-        text-align: center;
-    }
-
-    .btn {
-        margin-top: 10px;
+    .imagens-passaros {
+        margin-bottom: 30px; /* Espaçamento entre as imagens */
     }
 }
