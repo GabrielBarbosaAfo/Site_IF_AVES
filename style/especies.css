@@ -1,0 +1,32 @@
+* {
+margin: 0;
+padding: 0;
+text-decoration: none;
+box-sizing: border-box;
+}
+
+.separar-linhas {
+white-space: pre-line;
+}
+
+.imagem-redimensionada {
+width: 100%; /* ou um valor de sua preferência */
+height: auto;
+}
+
+.image-container {
+text-align: left; /* Alinha o conteúdo do contêiner à esquerda */
+}
+
+.image-container p {
+margin: 0; /* Remove margens padrão do parágrafo para ficar alinhado corretamente */
+}
+
+footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: #19882c; /* Cor de fundo do footer, você pode alterar conforme desejado */
+padding: 10px; /* Espaçamento interno do footer, você pode ajustar conforme desejado */
+}
