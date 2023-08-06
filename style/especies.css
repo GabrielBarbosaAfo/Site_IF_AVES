@@ -9,6 +9,10 @@ box-sizing: border-box;
 white-space: pre-line;
 }
 
+.separa {
+    white-space: pre-wrap;
+    }
+
 .imagem-redimensionada {
 width: 100%; /* ou um valor de sua preferência */
 height: auto;
@@ -23,7 +27,6 @@ margin: 0; /* Remove margens padrão do parágrafo para ficar alinhado corretame
 }
 
 footer {
-position: fixed;
 left: 0;
 bottom: 0;
 width: 100%;
