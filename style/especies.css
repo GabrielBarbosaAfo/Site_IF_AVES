@@ -10,8 +10,8 @@ white-space: pre-line;
 }
 
 .separa {
-    white-space: pre-wrap;
-    }
+white-space: pre-wrap;
+}
 
 .imagem-redimensionada {
 width: 100%; /* ou um valor de sua preferência */
