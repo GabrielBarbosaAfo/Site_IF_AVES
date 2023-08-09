@@ -74,7 +74,7 @@ color: white;
 position: relative;
 width: 100%;
 height: auto;
-padding: 10px;
+padding: 20px;
 }
 
 .description {
@@ -98,6 +98,18 @@ border: none; /* Remover a borda do botão */
 /* Cor do ícone (branco) */
 .btn-custom-icon .fa {
 color: #fff;
+}
+
+/* Estilos para o ícone de seta esquerda personalizado */
+.custom-carousel-icon-prev i {
+    font-size: 24px; /* Tamanho do ícone */
+    color: cyan; /* Cor do ícone */
+}
+
+/* Estilos para o ícone de seta direita personalizado */
+.custom-carousel-icon-next i {
+    font-size: 24px; /* Tamanho do ícone */
+    color: cyan; /* Cor do ícone */
 }
 
 footer {
