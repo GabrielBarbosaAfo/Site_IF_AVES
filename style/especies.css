@@ -5,6 +5,16 @@ text-decoration: none;
 box-sizing: border-box;
 }
 
+#search-btn {
+font-size: 0%;
+}
+
+#search-btn:hover,
+#search-btn:active {
+background-color: #006400 !important;
+color: #fff !important;
+}
+
 .separar-linhas {
 white-space: pre-line;
 }
@@ -32,4 +42,40 @@ bottom: 0;
 width: 100%;
 background-color: #19882c; /* Cor de fundo do footer, você pode alterar conforme desejado */
 padding: 10px; /* Espaçamento interno do footer, você pode ajustar conforme desejado */
+}
+
+/* Ajuste para telas menores que 768px */
+@media (max-width: 767px) {
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .image-container {
+        text-align: center;
+    }
+    
+    .footer {
+        text-align: center;
+    }
+}
+
+/* Ajuste para telas menores que 576px (como 320px) */
+@media (max-width: 575px) {
+    .navbar {
+        padding: 10px; /* Ajuste de espaçamento para telas pequenas */
+    }
+    
+    .image-container {
+        padding: 10px; /* Ajuste de espaçamento para telas pequenas */
+    }
+    
+    .footer {
+        padding: 10px; /* Ajuste de espaçamento para telas pequenas */
+    }
+    
+    /* Ajuste de fonte para telas pequenas */
+    h1, p, a {
+        font-size: 16px;
+    }
 }
