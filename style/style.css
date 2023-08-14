@@ -102,14 +102,14 @@ color: #fff;
 
 /* Estilos para o ícone de seta esquerda personalizado */
 .custom-carousel-icon-prev i {
-    font-size: 24px; /* Tamanho do ícone */
-    color: cyan; /* Cor do ícone */
+font-size: 24px; /* Tamanho do ícone */
+color: rgba(39,168,68,255); /* Cor do ícone */
 }
 
 /* Estilos para o ícone de seta direita personalizado */
 .custom-carousel-icon-next i {
-    font-size: 24px; /* Tamanho do ícone */
-    color: cyan; /* Cor do ícone */
+font-size: 24px; /* Tamanho do ícone */
+color: rgba(39,168,68,255); /* Cor do ícone */
 }
 
 footer {
