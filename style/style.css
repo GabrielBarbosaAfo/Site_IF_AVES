@@ -51,7 +51,7 @@ text-align: center; /* Centralizar o texto */
 .paragrafo-estilizado{
 font-family: "Montserrat", sans-serif;
 color: black;
-text-align: center;
+text-align: justify;
 }
 
 .custom-text {
