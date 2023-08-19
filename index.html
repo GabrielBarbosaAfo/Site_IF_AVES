@@ -13,517 +13,146 @@
     <title>IF-Aves</title>
 </head>
 <body>
-    <!-- Cabeçalho -->
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-success">
-        <div class="container-fluid container">
-          <a class="navbar-brand" href="./index.html">
-              <img src="Imagens/ifaves.jpg" alt="Logo" width="50" height="50">
-          </a>
-          <form class="d-flex" role="search" onsubmit="return search()">
-            <input id="search-text" class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-            <button id="search-btn" class="btn btn-outline-success bg-white ml-2" type="submit">
-              <span class="material-icons">search</span>
-            </button>
-          </form>
-                
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link text-white" href="./especies.html">Espécies</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
+  <!-- Cabeçalho -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-success">
+      <div class="container-fluid container">
+        <a class="navbar-brand" href="./index.html">
+            <img src="Imagens/ifaves.jpg" alt="Logo" width="50" height="50">
+        </a>
+        <a class="nav-link text-white" href="./especies.html">Espécies</a>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <form class="d-flex" role="search" onsubmit="return search()">
+              <input id="search-text" class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+              <button id="search-btn" class="btn btn-outline-success bg-white ml-2" type="submit">
+                <span class="material-icons">search</span>
+              </button>
+            </form>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
 
-    <!-- Conteúdo principal -->
-    <main>
+  <!-- Conteúdo principal -->
+  <main>
+    <div class="container text-center">
+      <div>
+        <h1 class="separar-linhas titulo-estilizado">
+          O Que é a Observação de Aves?
+        </h1>
+        <p class="paragrafo-estilizado">
+          A observação de aves é uma forma de lazer em contato direto com a natureza que visa observar e identificar aves livres. 
+          Democrática, não exige nenhuma formação específica, pode ser praticada indivudualmente ou em grupos em quintais, praças, 
+          parques e grandes áreas verdes. Estimula o conhecimento e troca de informações sobre o meio ambiente e a sua conservação 
+          enquanto proporciona bem-estar físico e mental. E pode gerar informações importantes para a ornitologia.
+        </p>
+        <img src="Imagens/WhatsApp Image 2023-07-19 at 11.52.18.jpeg" class ="imagem-observacao" alt="Obeservação Aves">
+        <h1 class="separar-linhas titulo-estilizado">
+          O Que é Preciso para Observar Aves?
+        </h1>
+        <p class="paragrafo-estilizado">
+          Para encontrar as aves basta apurar os sentidos para perceber a natureza que nos rodeia.
+          Mesmo na cidade nos chegam sons variados de aves, notamos muitos vultos em voo ou pousados próximos. 
+          Perceber e atentar para esse universo de seres alados que convivem tão perto permite entender onde buscam alimento, pouso ou abrigo. 
+          Frequentar áreas verdes permite aprimorar essa prática de encontrar as espécies em seus habitats.
+          Avistadas, é necessário registrar suas caracteristicas em bloco de anotações, fotografia ou gravação de áudio para ajudar na sua identificação. 
+          Logo surgirá uma lista de espécies de aves e o interesse em descobrir novas espécies. O contato com outros observadores permite a prática, 
+          dicas e trocas de conhecimento sobre métodos e equipamentos úteis, bem como sobre áreas e épocas adequadas. 
+          Guias impressos, aplicativos ou sites especializados ajudam a conhecer o conjunto de espécies encontradas em cada região e norteiam a sua 
+          identificação correta.
+        </p>
+        <img src="Imagens/WhatsApp Image 2023-07-19 at 11.52.19 (1).jpeg" class ="imagem-observacao" alt="Obeservação Aves">
+      </div>
+      
       <div class="container text-center">
-        <div>
-          <h1 class="separar-linhas titulo-estilizado">
-            O Que é a Observação de Aves?
-          </h1>
-          <p class="paragrafo-estilizado">
-            A observação de aves é uma forma de lazer em contato direto com a natureza que visa observar e identificar aves livres. 
-            Democrática, não exige nenhuma formação específica, pode ser praticada indivudualmente ou em grupos em quintais, praças, 
-            parques e grandes áreas verdes. Estimula o conhecimento e troca de informações sobre o meio ambiente e a sua conservação 
-            enquanto proporciona bem-estar físico e mental. E pode gerar informações importantes para a ornitologia.
-          </p>
-          <img src="Imagens/WhatsApp Image 2023-07-19 at 11.52.18.jpeg" class ="imagem-observacao" alt="Obeservação Aves">
-          <h1 class="separar-linhas titulo-estilizado">
-            O Que é Preciso para Observar Aves?
-          </h1>
-          <p class="paragrafo-estilizado">
-            Para encontrar as aves basta apurar os sentidos para perceber a natureza que nos rodeia.
-            Mesmo na cidade nos chegam sons variados de aves, notamos muitos vultos em voo ou pousados próximos. 
-            Perceber e atentar para esse universo de seres alados que convivem tão perto permite entender onde buscam alimento, pouso ou abrigo. 
-            Frequentar áreas verdes permite aprimorar essa prática de encontrar as espécies em seus habitats.
-            Avistadas, é necessário registrar suas caracteristicas em bloco de anotações, fotografia ou gravação de áudio para ajudar na sua identificação. 
-            Logo surgirá uma lista de espécies de aves e o interesse em descobrir novas espécies. O contato com outros observadores permite a prática, 
-            dicas e trocas de conhecimento sobre métodos e equipamentos úteis, bem como sobre áreas e épocas adequadas. 
-            Guias impressos, aplicativos ou sites especializados ajudam a conhecer o conjunto de espécies encontradas em cada região e norteiam a sua 
-            identificação correta.
-          </p>
-          <img src="Imagens/WhatsApp Image 2023-07-19 at 11.52.19 (1).jpeg" class ="imagem-observacao" alt="Obeservação Aves">
-        </div>
-        
-        <div class="container text-center">
-          <h1 class="separar-linhas titulo-estilizado">
-            Aves em Destaque
-          </h1>
+        <h1 class="separar-linhas titulo-estilizado">
+          Aves em Destaque
+        </h1>
 
-          <div id="birdCarousel" class="carousel slide" data-ride="carousel" data-interval="10000">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="row">
-                  <div class="col-md-6 imagens-passaros espaco-direita">
-                    <div class="image-container position-relative">
-                      <img src="Imagens/1_Tangara.jpg" alt="Imagem" class="img-fluid">
-                      <div class="description-container">
-                        <h5 class="text-center">Tangará (Chiroxiphia caudata)</h5>
-                        <div class="description text-justify">
-                          <p class="small with-line-break">
-                            <span style="display: block;">Tamanho: 13 cm</span> 
-                            <span style="display: block;">Espécie endêmica da Mata Atlântica</span>
-                            Ave florestal do sub-bosque, famosa pela dança nupcial em que alguns machos se apresentam para uma fêmea dançando alternadamente num galho, 
-                            daí o nome popular Tangará-dançarino. Seu canto pode ser ouvido a distância em alguns pontos do N.A e N.Z.
-                          </p>
-                          <div class="text-center"> <!-- Div para centralizar o botão -->
-                            <button class="btn-success rounded-circle btn-custom-icon mt-3 play-music" data-audio="Sons_passaros/01. TANGARA-DANÇARINO.mp3">
-                              <i class="fa fa-play fa-lg"></i>
-                            </button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6 imagens-passaros espaco-esquerda">
-                    <div class="image-container position-relative">
-                      <img src="Imagens/2_Maria_Faceira.jpg" alt="Imagem" class="img-fluid">
-                      <div class="description-container">
-                        <h5 class="text-center">Maria-faceira (Syrigma sibilatrix)</h5>
-                        <div class="description text-justify">
-                          <p class="small with-line-break">
-                            <span style="display: block;">Tamanho: 63 cm</span> 
-                            <span style="display: block;">Ave da família das garças, única do Brasil com este padrão de cores tão chamativas.</span>
-                            Habita várzeas, descampados úmidos ou secos onde caminha em busca de suas presas: insetos, pequenos anfíbios, peixes, répteis e até roedores. Dorme e nidifica em árvores próximas. Costuma nidificar em araucárias do N.A.
-                          </p>
-                          <div class="text-center"> <!-- Div para centralizar o botão -->
-                            <button class="btn-success rounded-circle btn-custom-icon mt-3 play-music" data-audio="Sons_passaros/02. MARIA-FACEIRA.mp3">
-                              <i class="fa fa-play fa-lg"></i>
-                            </button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6 imagens-passaros espaco-direita">
-                    <div class="image-container position-relative">
-                      <img src="Imagens/3_Garibaldi.jpg" alt="Imagem" class="img-fluid">
-                      <div class="description-container">
-                        <h5 class="text-center">Garibaldi (Chrysomus ruficapillus)</h5>
-                        <div class="description text-justify">
-                          <p class="small with-line-break">
-                            <span style="display: block;">Tamanho: 19 cm</span> 
-                            <span style="display: block;">Espécie bastante avistada nas proximidades dos estábulos do N.Z.</span>
-                            É habitante de campos úmidos, brejos e taboais, as vezes em grandes bandos, acostumado a frequentar áreas de plantação e criação de animais.
-                            Outro nome popular desta espécie é “dó-ré-mi” numa referência ao seu canto típico.<span class="invisivel">dsdadasdasdas dasdas dsssss sssssssssssss dfdssdd</span>
-                          </p>
-                          <div class="text-center"> <!-- Div para centralizar o botão -->
-                            <button class="btn-success rounded-circle btn-custom-icon mt-3 play-music" data-audio="Sons_passaros/03. GARIBALDI.mp3">
-                              <i class="fa fa-play fa-lg"></i>
-                            </button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6 imagens-passaros espaco-esquerda">
-                    <div class="image-container position-relative">
-                      <img src="Imagens/4_Capitao_de_saira.jpg" alt="Imagem" class="img-fluid">
-                      <div class="description-container">
-                        <h5 class="text-center">Capitão-de-saíra (Attila rufus)</h5>
-                        <div class="description text-justify">
-                          <p class="small with-line-break">
-                            <span style="display: block;">Tamanho: 21 cm</span> 
-                            <span style="display: block;">Espécie endêmica da Mata Atlântica.</span>
-                            Ave florestal que costuma ser mais ouvida do que avistada, já que não costuma sair da mata para locais abertos. Tem canto muito peculiar com seis a sete notas agudas e ascendentes exceto a última em que parece ter se cansado.
-                            Observada em alguns pontos da grande área de fragmento do N.Z.
-                          </p>
-                          <div class="text-center"> <!-- Div para centralizar o botão -->
-                            <button class="btn-success rounded-circle btn-custom-icon mt-3 play-music" data-audio="Sons_passaros/04. CAPITAO-DE-SAIRA.mp3">
-                              <i class="fa fa-play fa-lg"></i>
-                            </button>
-                          </div>
+        <div id="birdCarousel" class="carousel slide" data-ride="carousel" data-interval="10000">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-md-6 imagens-passaros espaco-direita">
+                  <div class="image-container position-relative">
+                    <img src="Imagens/1_Tangara.jpg" alt="Imagem" class="img-fluid">
+                    <div class="description-container">
+                      <h5 class="text-center">Tangará (Chiroxiphia caudata)</h5>
+                      <div class="description text-justify">
+                        <p class="small with-line-break">
+                          <span style="display: block;">Tamanho: 13 cm</span> 
+                          <span style="display: block;">Espécie endêmica da Mata Atlântica</span>
+                          Ave florestal do sub-bosque, famosa pela dança nupcial em que alguns machos se apresentam para uma fêmea dançando alternadamente num galho, 
+                          daí o nome popular Tangará-dançarino. Seu canto pode ser ouvido a distância em alguns pontos do N.A e N.Z.
+                        </p>
+                        <div class="text-center"> <!-- Div para centralizar o botão -->
+                          <button class="btn-success rounded-circle btn-custom-icon mt-3 play-music" data-audio="Sons_passaros/01. TANGARA-DANÇARINO.mp3">
+                            <i class="fa fa-play fa-lg"></i>
+                          </button>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="carousel-item">
-                <div class="row">
-                  <div class="col-md-6 imagens-passaros espaco-esquerda">
-                    <div class="image-container position-relative">
-                      <img src="Imagens/5_Gaviao_pega_Macaco.jpg" alt="Imagem" class="img-fluid">
-                      <div class="description-container">
-                        <h5 class="text-center">Gavião-pega-macaco (Spizaetus tyrannus) </h5>
-                        <div class="description text-justify">
-                          <p class="small with-line-break">
-                            <span style="display: block;">Tamanho: 67 cm.</span> 
-                            <span style="display: block;">Esta águia tropical é uma grande ave de rapina estritamente florestal que habita grandes fragmentos de mata pouco alterados.</span>
-                            Caça mamíferos, répteis e aves.Observada em voos solitários sobre as matas do N.A. e N.Z, mais raramente em poleiros de caça. 
-                            O único ninho já observado fica num ponto de mata densa do IF Sudeste Barbacena.
-                          </p>
-                          <div class="text-center"> <!-- Div para centralizar o botão -->
-                            <button class="btn-success rounded-circle btn-custom-icon mt-3 play-music" data-audio="Sons_passaros/05. GAVIAO-PEGA-MACACO.mp3">
-                              <i class="fa fa-play fa-lg"></i>
-                            </button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6 imagens-passaros espaco-esquerda">
-                    <div class="image-container position-relative">
-                      <img src="Imagens/6_Pica_Pau_Verde_Barrado.jpg" alt="Imagem" class="img-fluid">
-                      <div class="description-container">
-                        <h5 class="text-center">Pica-pau-verde-barrado (Colaptes melanochloros)</h5>
-                        <div class="description text-justify">
-                          <p class="small with-line-break">
-                            <span style="display: block;">Tamanho: 29 cm.</span> 
-                            <span style="display: block;">Espécie comum de pica-pau, habita matas de galeria, cerrado, campos com árvores, pomares e locais urbanos arborizados. Geralmente é visto sozinho aqui na região.</span>
-                            Grande predador de formigas, cupins e larvas de diversos insetos.Comumente observado nas bordas de mata, 
-                            pomares e áreas com árvores desde a área da sede até o N.A. (indivíduo da fotografia) e N.Z
-                          </p>
-                          <div class="text-center"> <!-- Div para centralizar o botão -->
-                            <button class="btn-success rounded-circle btn-custom-icon mt-3 play-music" data-audio="Sons_passaros/06. PICA-PAU-VERDE-BARRADO.mp3">
-                              <i class="fa fa-play fa-lg"></i>
-                            </button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6 imagens-passaros espaco-esquerda">
-                    <div class="image-container position-relative">
-                      <img src="Imagens/7_Tororo.jpg" alt="Imagem" class="img-fluid">
-                      <div class="description-container">
-                        <h5 class="text-center">Tororó (Poecilotriccus plumbeiceps)</h5>
-                        <div class="description text-justify">
-                          <p class="small with-line-break">
-                            <span style="display: block;">Tamanho: 9 cm.</span> 
-                            <span style="display: block;">Habita locais de vegetação densa mais próximos do chão</span>
-                            Pequena espécie de canto em notas rápidas e som parecido com o de sapos e pererecas. Sempre muito ativo e inquieto
-                            pula de um lado para o outro constantemente. Bastante ouvido em diversas áreas do IF, as vezes se nota primeiro seu vulto
-                            em movimentação na vegetação fechada. Fotografia em mata do N.Z.
-                          </p>
-                          <div class="text-center"> <!-- Div para centralizar o botão -->
-                            <button class="btn-success rounded-circle btn-custom-icon mt-3 play-music" data-audio="Sons_passaros/07. TORORO.mp3">
-                              <i class="fa fa-play fa-lg"></i>
-                            </button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6 imagens-passaros espaco-esquerda">
-                    <div class="image-container position-relative">
-                      <img src="Imagens/8_Anu_Preto.jpg" alt="Imagem" class="img-fluid">
-                      <div class="description-container">
-                        <h5 class="text-center">Anu-preto (Crotophaga ani)</h5>
-                        <div class="description text-justify">
-                          <p class="small with-line-break">
-                            <span style="display: block;">Tamanho: 36 cm.</span> 
-                            <span style="display: block;">Espécie muito comum na zona rural em áreas abertas de cultivos e pastagens.</span>
-                            Geralmente é visto em bandos no chão ou em poleiros baixos como cercas e arbustos. Voa de forma desajeitada. 
-                            Grande predador de gafanhotos, percevejos, lagartas (ajuda no controle dessas espécies em plantações) além de 
-                            lagartixas e pequenos roedores. Fotografia em plantação de repolhos do N.A.
-                          </p>
-                          <div class="text-center"> <!-- Div para centralizar o botão -->
-                            <button class="btn-success rounded-circle btn-custom-icon mt-3 play-music" data-audio="Sons_passaros/08. ANU-PRETO.mp3">
-                              <i class="fa fa-play fa-lg"></i>
-                            </button>
-                          </div>
+                <div class="col-md-6 imagens-passaros espaco-esquerda">
+                  <div class="image-container position-relative">
+                    <img src="Imagens/2_Maria_Faceira.jpg" alt="Imagem" class="img-fluid">
+                    <div class="description-container">
+                      <h5 class="text-center">Maria-faceira (Syrigma sibilatrix)</h5>
+                      <div class="description text-justify">
+                        <p class="small with-line-break">
+                          <span style="display: block;">Tamanho: 63 cm</span> 
+                          <span style="display: block;">Ave da família das garças, única do Brasil com este padrão de cores tão chamativas.</span>
+                          Habita várzeas, descampados úmidos ou secos onde caminha em busca de suas presas: insetos, pequenos anfíbios, peixes, répteis e até roedores. Dorme e nidifica em árvores próximas. Costuma nidificar em araucárias do N.A.
+                        </p>
+                        <div class="text-center"> <!-- Div para centralizar o botão -->
+                          <button class="btn-success rounded-circle btn-custom-icon mt-3 play-music" data-audio="Sons_passaros/02. MARIA-FACEIRA.mp3">
+                            <i class="fa fa-play fa-lg"></i>
+                          </button>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-
-              <div class="carousel-item">
-                <div class="row">
-                  <div class="col-md-6 imagens-passaros espaco-esquerda">
-                    <div class="image-container position-relative">
-                      <img src="Imagens/9_Gaviao_Caboclo.jpg" alt="Imagem" class="img-fluid">
-                      <div class="description-container">
-                        <h5 class="text-center">Gavião-caboclo (Heterospizias meridionalis)</h5>
-                        <div class="description text-justify">
-                          <p class="small with-line-break">
-                            <span style="display: block;">Tamanho: 60 cm.</span> 
-                            <span style="display: block;">Grande gavião de cores amarronzadas, comum em áreas abertas com árvores esparsas.</span>
-                            Pode ser visto planando ou pousado em diversas alturas, desde postes e árvores até cupins e moirões de cerca.
-                            Grande predador de pequenos mampiferos, aves,, anfíbios e répteis. Uma família procria continuadamente no 
-                            entorno da plantação de repolhos do N.A.
-                          </p>
-                          <div class="text-center"> <!-- Div para centralizar o botão -->
-                            <button class="btn-success rounded-circle btn-custom-icon mt-3 play-music" data-audio="Sons_passaros/09. GAVIAO-CABOCLO.mp3">
-                              <i class="fa fa-play fa-lg"></i>
-                            </button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6 imagens-passaros espaco-esquerda">
-                    <div class="image-container position-relative">
-                      <img src="Imagens/10_Teque_teque.jpg" alt="Imagem" class="img-fluid">
-                      <div class="description-container">
-                        <h5 class="text-center">Teque-teque (Todirostrum poliocephalum)</h5>
-                        <div class="description text-justify">
-                          <p class="small with-line-break">
-                            <span style="display: block;">Tamanho: 9 cm.</span> 
-                            <span style="display: block;">Ave minúscula, de canto agudo e acelerado, comum na vegetação das bordas de matas e capoeiras da região, as vezes até em arbustos de jardins.</span>
-                            Muito inquieta, está sempre pulando entre a folhagem enquanto caça pequenos insetos e frutinhas.
-                            Fotografia na área do pomar do N.A.<span class="invisivel">dsdadasdasdas dasdas dsssss sssssssssssss dfdssdd </span> 
-                          </p>
-                          <div class="text-center"> <!-- Div para centralizar o botão -->
-                            <button class="btn-success rounded-circle btn-custom-icon mt-3 play-music" data-audio="Sons_passaros/10. TEQUE-TEQUE.mp3">
-                              <i class="fa fa-play fa-lg"></i>
-                            </button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6 imagens-passaros espaco-esquerda">
-                    <div class="image-container position-relative">
-                      <img src="Imagens/11_Falcao_Caure.jpg" alt="Imagem" class="img-fluid">
-                      <div class="description-container">
-                        <h5 class="text-center">Falcão-cauré (Falco rifigularis)</h5>
-                        <div class="description text-justify">
-                          <p class="small with-line-break">
-                            <span style="display: block;">Tamanho: 30 cm.</span> 
-                            <span style="display: block;">Ave de rapina pouco observada em Barbacena, habita áreas bem arborizadas.</span>
-                            Hábil caçador, captura em voo morcegos, aves e insetos além de pequenos roedores e  lagartos que caça no solo.
-                            Costuma ficar muito tempo em poleiros bem altos como árvores mortas e postes a espreita de sua caça. 
-                            Fotografada na área da grande área florestada do N.Z.<span class="invisivel">dsdadasdasdas dasdas dsssss sssssssssssss dfdssdd ds fdfdf fdsffse fdfsdfsf fs</span>
-                          </p>
-                          <div class="text-center"> <!-- Div para centralizar o botão -->
-                            <button class="btn-success rounded-circle btn-custom-icon mt-3 play-music" data-audio="Sons_passaros/11. FALCAO-CAURE.mp3">
-                              <i class="fa fa-play fa-lg"></i>
-                            </button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6 imagens-passaros espaco-esquerda">
-                    <div class="image-container position-relative">
-                      <img src="Imagens/12_Tie-sangue.jpg" alt="Imagem" class="img-fluid">
-                      <div class="description-container">
-                        <h5 class="text-center">Tiê-Sangue (Ramphocelus bresilia)</h5>
-                        <div class="description text-justify">
-                          <p class="small with-line-break">
-                            <span style="display: block;">Tamanho: 18 cm.</span> 
-                            <span style="display: block;">Espécie endêmica e considerada símbolo da Mata Atlântica.</span>
-                            Os machos apresentam plumagem vermelha vistosa, e as fêmeas são pardas com tons avermelhados na parte inferior. 
-                            Indivíduos jovens nascem parecidos com as fêmeas e, conforme os machos amadurecem, tornam-se vermelhos.
-                            Gostam de ambientes de borda de mata e são comumente associados a cursos da água.No campus, 
-                            costumam ser avistados no N.A e na Equoterapia, sempre próximos ao córrego que corta o local.
-                          </p>
-                          <div class="text-center"> <!-- Div para centralizar o botão -->
-                            <button class="btn-success rounded-circle btn-custom-icon mt-3 play-music" data-audio="Sons_passaros/12. TIE-SANGUE.mp3">
-                              <i class="fa fa-play fa-lg"></i>
-                            </button>
-                          </div>
+                <div class="col-md-6 imagens-passaros espaco-direita">
+                  <div class="image-container position-relative">
+                    <img src="Imagens/3_Garibaldi.jpg" alt="Imagem" class="img-fluid">
+                    <div class="description-container">
+                      <h5 class="text-center">Garibaldi (Chrysomus ruficapillus)</h5>
+                      <div class="description text-justify">
+                        <p class="small with-line-break">
+                          <span style="display: block;">Tamanho: 19 cm</span> 
+                          <span style="display: block;">Espécie bastante avistada nas proximidades dos estábulos do N.Z.</span>
+                          É habitante de campos úmidos, brejos e taboais, as vezes em grandes bandos, acostumado a frequentar áreas de plantação e criação de animais.
+                          Outro nome popular desta espécie é “dó-ré-mi” numa referência ao seu canto típico.<span class="invisivel">dsdadasdasdas dasdas dsssss sssssssssssss dfdssdd</span>
+                        </p>
+                        <div class="text-center"> <!-- Div para centralizar o botão -->
+                          <button class="btn-success rounded-circle btn-custom-icon mt-3 play-music" data-audio="Sons_passaros/03. GARIBALDI.mp3">
+                            <i class="fa fa-play fa-lg"></i>
+                          </button>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-
-              <div class="carousel-item">
-                <div class="row">
-                  <div class="col-md-6 imagens-passaros espaco-esquerda">
-                    <div class="image-container position-relative">
-                      <img src="Imagens/13_Surucua_Variado.jpg" alt="Imagem" class="img-fluid">
-                      <div class="description-container">
-                        <h5 class="text-center">Surucuá-variado (Trogon surrucura)</h5>
-                        <div class="description text-justify">
-                          <p class="small with-line-break">
-                            <span style="display: block;">Tamanho: 27 cm.</span> 
-                            <span style="display: block;">Ave que pode habitar matas e cerrados.</span>
-                            Apresenta cabeça e peito azul-violeta, barriga amarela e parte superior cinza-metálica.No período reprodutivo, 
-                            tende a ser uma espécie territorialista e vocaliza longas sequências de “kwa”. No campus, costuma ser 
-                            observada na mata do NZ e também no NA.<span class="invisivel">dsdadasdasdas dasdas dsssss sssssssssssss dfdssdd  fdsfsdf fsdf  fdsfsd  fsdf sdf sdf fdsfsdf fdsfs</span>
-                          </p>
-                          <div class="text-center"> <!-- Div para centralizar o botão -->
-                            <button class="btn-success rounded-circle btn-custom-icon mt-3 play-music" data-audio="Sons_passaros/13. SURUCUA-VARIADO.mp3">
-                              <i class="fa fa-play fa-lg"></i>
-                            </button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6 imagens-passaros espaco-esquerda">
-                    <div class="image-container position-relative">
-                      <img src="Imagens/14_Principe.jpg" alt="Imagem" class="img-fluid">
-                      <div class="description-container">
-                        <h5 class="text-center">Príncipe (Pyrocephalus rubinus)</h5>
-                        <div class="description text-justify">
-                          <p class="small with-line-break">
-                            <span style="display: block;">Tamanho: 13 cm.</span> 
-                            <span style="display: block;">Ave migratória que pode ser observada nas várzeas do N.A durante a primavera, quando retorna do norte do país para reprodução.</span>
-                            No período reprodutivo, os machos apresentam plumagem vermelha com dorso e "máscara" escura. As fêmeas e jovens são cinza-claros
-                            com listras escuras.Costuma ser avistado pousado sobre as cercas do N.A, mais comumente próximos ao córrego da equoterapia.
-                          </p>
-                          <div class="text-center"> <!-- Div para centralizar o botão -->
-                            <button class="btn-success rounded-circle btn-custom-icon mt-3 play-music" data-audio="Sons_passaros/14. PRINCIPE.mp3">
-                              <i class="fa fa-play fa-lg"></i>
-                            </button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6 imagens-passaros espaco-esquerda">
-                    <div class="image-container position-relative">
-                      <img src="Imagens/15_Bico_Virado_Carijo.jpg" alt="Imagem" class="img-fluid">
-                      <div class="description-container">
-                        <h5 class="text-center">Bico-virado-carijó (Xenops rutilans)</h5>
-                        <div class="description text-justify">
-                          <p class="small with-line-break">
-                            <span style="display: block;">Tamanho: 12 cm.</span> 
-                            <span style="display: block;">Pequena ave florestal, prefere o interior de matas a áreas abertas.</span>
-                            No campus, pode ser observada em áreas com essas características nas matas do N.A e N.Z.O nome é oriundo
-                            do formato do bico da ave, que é curvado para cima e usado para extrair insetos, larvas e pequenos animais dos troncos das árvores.
-                            <span class="invisivel">dsdadasdasdas dasdas dsssss sssssssssssss dfdssdd </span>
-                          </p>
-                          <div class="text-center"> <!-- Div para centralizar o botão -->
-                            <button class="btn-success rounded-circle btn-custom-icon mt-3 play-music" data-audio="Sons_passaros/15. BICO-VIRADO-CARIJO.mp3">
-                              <i class="fa fa-play fa-lg"></i>
-                            </button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6 imagens-passaros espaco-esquerda">
-                    <div class="image-container position-relative">
-                      <img src="Imagens/16_Cabure_Acanelado.jpg" alt="Imagem" class="img-fluid">
-                      <div class="description-container">
-                        <h5 class="text-center">Caburé-acanelado (Aegolius harrisii)</h5>
-                        <div class="description text-justify">
-                          <p class="small with-line-break">
-                            <span style="display: block;">Tamanho: 22 cm.</span> 
-                            <span style="display: block;">Pequena coruja de difícil avistamento e hábitos quase desconhecidos.</span>
-                            Foi registrada numa área de borda de mata do IF depois de identificado seu canto, um trinado agudo, repetitivo e acelerado. 
-                            Parece emitir seu canto logo depois do crepúsculo, momento crucial para se perceber sua presença numa área. 
-                            Depois se torna quase muda, raramente vocalizando e impossibilitando sua localização. 
-                          </p>
-                          <div class="text-center"> <!-- Div para centralizar o botão -->
-                            <button class="btn-success rounded-circle btn-custom-icon mt-3 play-music" data-audio="Sons_passaros/16. CABURE-ACANELADO.mp3">
-                              <i class="fa fa-play fa-lg"></i>
-                            </button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="carousel-item">
-                <div class="row">
-                  <div class="col-md-6 imagens-passaros espaco-esquerda">
-                    <div class="image-container position-relative">
-                      <img src="Imagens/17_Tapaculo_da_Varzea.jpg" alt="Imagem" class="img-fluid">
-                      <div class="description-container">
-                        <h5 class="text-center">Tapaculo-da-várzea (Scytalopus iraiensis)</h5>
-                        <div class="description text-justify">
-                          <p class="small with-line-break">
-                            <span style="display: block;">Tamanho: 12 cm.</span> 
-                            <span style="display: block;">Pequena ave descoberta pela ciência há poucos anos no Paraná e até hoje com raros registros no Brasil. Muito escassa está em perigo de extinção na natureza.</span>
-                            A espécie foi registrada em 2016 na área do IF a partir da confirmação da sua vocalização, sendo um dos primeiros registros
-                            na bacia do Rio Grande em MG. Muito escasso, de comportamento extremamente arredio, pode ser ouvido sem que se consiga
-                            um avistamento. Dificilmente abandona a vegetação de brejo em que vive e parece se deslocar sempre pelo chão, evitando o voo.
-                          </p>
-                          <div class="text-center"> <!-- Div para centralizar o botão -->
-                            <button class="btn-success rounded-circle btn-custom-icon mt-3 play-music" data-audio="Sons_passaros/17. MACUQUINHO-DA-VARZEA.mp3">
-                              <i class="fa fa-play fa-lg"></i>
-                            </button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6 imagens-passaros espaco-esquerda">
-                    <div class="image-container position-relative">
-                      <img src="Imagens/18_Caneleiro_Verde.jpg" alt="Imagem" class="img-fluid">
-                      <div class="description-container">
-                        <h5 class="text-center">Caneleiro-verde (Pachyramphus viridis)</h5>
-                        <div class="description text-justify">
-                          <p class="small with-line-break">
-                            <span style="display: block;">Tamanho: 14,5 cm.</span> 
-                            <span style="display: block;">Encontrado em florestas e bordas de florestas, no campus pode ser visto na mata do N.Z.</span>
-                            Os machos apresentam dorso verde-oliva e peito amarelo, barriga acinzentada e cabeça cinza com uma coroa preta.
-                            <span class="invisivel">dsdadasdasdas dasdas dsssss sssssssssssss dfdssdd fdfdfdafaf dsdasd dsad dsads ds asdasdsdd dsad dsadasd dasdasd dsaddsd dsadasd dasdad
-                              dsdasda ddasd dsada dasd dasdd dasdasda dasd ds dasdad dasdsa adasd dasda dadssd dsds sd dsadads w dsda fefe dsadasd dsdsdsd dsds dsdsd dsdsd dsdsad dsadasda dsd
-                              dsdadasda dsad ds ds s dsadasd dsadasd dsd
-                            </span>
-                          </p>
-                          <div class="text-center"> <!-- Div para centralizar o botão -->
-                            <button class="btn-success rounded-circle btn-custom-icon mt-3 play-music" data-audio="Sons_passaros/18. CANELEIRO-VERDE.mp3">
-                              <i class="fa fa-play fa-lg"></i>
-                            </button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6 imagens-passaros espaco-esquerda">
-                    <div class="image-container position-relative">
-                      <img src="Imagens/19_Tucano_de_bico_Verde.jpg" alt="Imagem" class="img-fluid">
-                      <div class="description-container">
-                        <h5 class="text-center">Tucano-de-bico-verde (Ramphastos dicolorus)</h5>
-                        <div class="description text-justify">
-                          <p class="small with-line-break">
-                            <span style="display: block;">Tamanho: 45 cm.</span> 
-                            <span style="display: block;">Podem ser vistos em bandos e às vezes solitários por todo o campus, porém é mais comum próximo às áreas de mata.</span>
-                            Diferencia-se do tucano mais conhecido, o Tucanuçu (Ramphastos toco), pela cor esverdeada do bico, tamanho menor do bico e
-                            cores do peito. <span class="invisivel">dsdadasdasdas dasdas dsssss sssssssssssss dfdssdd </span>
-                          </p>
-                          <div class="text-center"> <!-- Div para centralizar o botão -->
-                            <button class="btn-success rounded-circle btn-custom-icon mt-3 play-music" data-audio="Sons_passaros/19. TUCANO-DE-BICO-VERDE.mp3">
-                              <i class="fa fa-play fa-lg"></i>
-                            </button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6 imagens-passaros espaco-esquerda">
-                    <div class="image-container position-relative">
-                      <img src="Imagens/20_Saira_Amarela.jpg" alt="Imagem" class="img-fluid">
-                      <div class="description-container">
-                        <h5 class="text-center">Saíra-Amarela (Stilpnia cayana)</h5>
-                        <div class="description text-justify">
-                          <p class="small with-line-break">
-                            <span style="display: block;">Tamanho: 15 cm.</span> 
-                            <span style="display: block;">Espécie que habita matas abertas, ciliares, praças e jardins.</span>
-                            Pode ser vista frequentemente em quintais, principalmente em locais que possuam árvores frutíferas e comedouros.
-                            O peito e parte da cabeça são escuros, as asas são azuladas e o restante do corpo é amarelo, o que chama a atenção. 
-                            As fêmeas apresentam tons acinzentados e amarelos fracos, com asas verdes.
-                          </p>
-                          <div class="text-center"> <!-- Div para centralizar o botão -->
-                            <button class="btn-success rounded-circle btn-custom-icon mt-3 play-music" data-audio="Sons_passaros/08. ANU-PRETO.mp3">
-                              <i class="fa fa-play fa-lg"></i>
-                            </button>
-                          </div>
+                <div class="col-md-6 imagens-passaros espaco-esquerda">
+                  <div class="image-container position-relative">
+                    <img src="Imagens/4_Capitao_de_saira.jpg" alt="Imagem" class="img-fluid">
+                    <div class="description-container">
+                      <h5 class="text-center">Capitão-de-saíra (Attila rufus)</h5>
+                      <div class="description text-justify">
+                        <p class="small with-line-break">
+                          <span style="display: block;">Tamanho: 21 cm</span> 
+                          <span style="display: block;">Espécie endêmica da Mata Atlântica.</span>
+                          Ave florestal que costuma ser mais ouvida do que avistada, já que não costuma sair da mata para locais abertos. Tem canto muito peculiar com seis a sete notas agudas e ascendentes exceto a última em que parece ter se cansado.
+                          Observada em alguns pontos da grande área de fragmento do N.Z.
+                        </p>
+                        <div class="text-center"> <!-- Div para centralizar o botão -->
+                          <button class="btn-success rounded-circle btn-custom-icon mt-3 play-music" data-audio="Sons_passaros/04. CAPITAO-DE-SAIRA.mp3">
+                            <i class="fa fa-play fa-lg"></i>
+                          </button>
                         </div>
                       </div>
                     </div>
@@ -531,26 +160,402 @@
                 </div>
               </div>
             </div>
-          
-            <!-- Controles de navegação do carrossel -->
-            <a class="carousel-control-prev" href="#birdCarousel" role="button" data-slide="prev">
-              <span class="custom-carousel-icon-prev" aria-hidden="true">
-                  <i class="fas fa-chevron-left"></i> <!-- Ícone personalizado para a seta esquerda -->
-              </span>
-              <span class="sr-only">Anterior</span>
-            </a>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-6 imagens-passaros espaco-esquerda">
+                  <div class="image-container position-relative">
+                    <img src="Imagens/5_Gaviao_pega_Macaco.jpg" alt="Imagem" class="img-fluid">
+                    <div class="description-container">
+                      <h5 class="text-center">Gavião-pega-macaco (Spizaetus tyrannus) </h5>
+                      <div class="description text-justify">
+                        <p class="small with-line-break">
+                          <span style="display: block;">Tamanho: 67 cm.</span> 
+                          <span style="display: block;">Esta águia tropical é uma grande ave de rapina estritamente florestal que habita grandes fragmentos de mata pouco alterados.</span>
+                          Caça mamíferos, répteis e aves.Observada em voos solitários sobre as matas do N.A. e N.Z, mais raramente em poleiros de caça. 
+                          O único ninho já observado fica num ponto de mata densa do IF Sudeste Barbacena.
+                        </p>
+                        <div class="text-center"> <!-- Div para centralizar o botão -->
+                          <button class="btn-success rounded-circle btn-custom-icon mt-3 play-music" data-audio="Sons_passaros/05. GAVIAO-PEGA-MACACO.mp3">
+                            <i class="fa fa-play fa-lg"></i>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 imagens-passaros espaco-esquerda">
+                  <div class="image-container position-relative">
+                    <img src="Imagens/6_Pica_Pau_Verde_Barrado.jpg" alt="Imagem" class="img-fluid">
+                    <div class="description-container">
+                      <h5 class="text-center">Pica-pau-verde-barrado (Colaptes melanochloros)</h5>
+                      <div class="description text-justify">
+                        <p class="small with-line-break">
+                          <span style="display: block;">Tamanho: 29 cm.</span> 
+                          <span style="display: block;">Espécie comum de pica-pau, habita matas de galeria, cerrado, campos com árvores, pomares e locais urbanos arborizados. Geralmente é visto sozinho aqui na região.</span>
+                          Grande predador de formigas, cupins e larvas de diversos insetos.Comumente observado nas bordas de mata, 
+                          pomares e áreas com árvores desde a área da sede até o N.A. (indivíduo da fotografia) e N.Z
+                        </p>
+                        <div class="text-center"> <!-- Div para centralizar o botão -->
+                          <button class="btn-success rounded-circle btn-custom-icon mt-3 play-music" data-audio="Sons_passaros/06. PICA-PAU-VERDE-BARRADO.mp3">
+                            <i class="fa fa-play fa-lg"></i>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 imagens-passaros espaco-esquerda">
+                  <div class="image-container position-relative">
+                    <img src="Imagens/7_Tororo.jpg" alt="Imagem" class="img-fluid">
+                    <div class="description-container">
+                      <h5 class="text-center">Tororó (Poecilotriccus plumbeiceps)</h5>
+                      <div class="description text-justify">
+                        <p class="small with-line-break">
+                          <span style="display: block;">Tamanho: 9 cm.</span> 
+                          <span style="display: block;">Habita locais de vegetação densa mais próximos do chão</span>
+                          Pequena espécie de canto em notas rápidas e som parecido com o de sapos e pererecas. Sempre muito ativo e inquieto
+                          pula de um lado para o outro constantemente. Bastante ouvido em diversas áreas do IF, as vezes se nota primeiro seu vulto
+                          em movimentação na vegetação fechada. Fotografia em mata do N.Z.
+                        </p>
+                        <div class="text-center"> <!-- Div para centralizar o botão -->
+                          <button class="btn-success rounded-circle btn-custom-icon mt-3 play-music" data-audio="Sons_passaros/07. TORORO.mp3">
+                            <i class="fa fa-play fa-lg"></i>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 imagens-passaros espaco-esquerda">
+                  <div class="image-container position-relative">
+                    <img src="Imagens/8_Anu_Preto.jpg" alt="Imagem" class="img-fluid">
+                    <div class="description-container">
+                      <h5 class="text-center">Anu-preto (Crotophaga ani)</h5>
+                      <div class="description text-justify">
+                        <p class="small with-line-break">
+                          <span style="display: block;">Tamanho: 36 cm.</span> 
+                          <span style="display: block;">Espécie muito comum na zona rural em áreas abertas de cultivos e pastagens.</span>
+                          Geralmente é visto em bandos no chão ou em poleiros baixos como cercas e arbustos. Voa de forma desajeitada. 
+                          Grande predador de gafanhotos, percevejos, lagartas (ajuda no controle dessas espécies em plantações) além de 
+                          lagartixas e pequenos roedores. Fotografia em plantação de repolhos do N.A.
+                        </p>
+                        <div class="text-center"> <!-- Div para centralizar o botão -->
+                          <button class="btn-success rounded-circle btn-custom-icon mt-3 play-music" data-audio="Sons_passaros/08. ANU-PRETO.mp3">
+                            <i class="fa fa-play fa-lg"></i>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-            <a class="carousel-control-next" href="#birdCarousel" role="button" data-slide="next">
-              <span class="custom-carousel-icon-next" aria-hidden="true">
-                  <i class="fas fa-chevron-right"></i>
-              </span>
-              <span class="sr-only">Próximo</span>
-            </a>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-6 imagens-passaros espaco-esquerda">
+                  <div class="image-container position-relative">
+                    <img src="Imagens/9_Gaviao_Caboclo.jpg" alt="Imagem" class="img-fluid">
+                    <div class="description-container">
+                      <h5 class="text-center">Gavião-caboclo (Heterospizias meridionalis)</h5>
+                      <div class="description text-justify">
+                        <p class="small with-line-break">
+                          <span style="display: block;">Tamanho: 60 cm.</span> 
+                          <span style="display: block;">Grande gavião de cores amarronzadas, comum em áreas abertas com árvores esparsas.</span>
+                          Pode ser visto planando ou pousado em diversas alturas, desde postes e árvores até cupins e moirões de cerca.
+                          Grande predador de pequenos mampiferos, aves,, anfíbios e répteis. Uma família procria continuadamente no 
+                          entorno da plantação de repolhos do N.A.
+                        </p>
+                        <div class="text-center"> <!-- Div para centralizar o botão -->
+                          <button class="btn-success rounded-circle btn-custom-icon mt-3 play-music" data-audio="Sons_passaros/09. GAVIAO-CABOCLO.mp3">
+                            <i class="fa fa-play fa-lg"></i>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 imagens-passaros espaco-esquerda">
+                  <div class="image-container position-relative">
+                    <img src="Imagens/10_Teque_teque.jpg" alt="Imagem" class="img-fluid">
+                    <div class="description-container">
+                      <h5 class="text-center">Teque-teque (Todirostrum poliocephalum)</h5>
+                      <div class="description text-justify">
+                        <p class="small with-line-break">
+                          <span style="display: block;">Tamanho: 9 cm.</span> 
+                          <span style="display: block;">Ave minúscula, de canto agudo e acelerado, comum na vegetação das bordas de matas e capoeiras da região, as vezes até em arbustos de jardins.</span>
+                          Muito inquieta, está sempre pulando entre a folhagem enquanto caça pequenos insetos e frutinhas.
+                          Fotografia na área do pomar do N.A.<span class="invisivel">dsdadasdasdas dasdas dsssss sssssssssssss dfdssdd </span> 
+                        </p>
+                        <div class="text-center"> <!-- Div para centralizar o botão -->
+                          <button class="btn-success rounded-circle btn-custom-icon mt-3 play-music" data-audio="Sons_passaros/10. TEQUE-TEQUE.mp3">
+                            <i class="fa fa-play fa-lg"></i>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 imagens-passaros espaco-esquerda">
+                  <div class="image-container position-relative">
+                    <img src="Imagens/11_Falcao_Caure.jpg" alt="Imagem" class="img-fluid">
+                    <div class="description-container">
+                      <h5 class="text-center">Falcão-cauré (Falco rifigularis)</h5>
+                      <div class="description text-justify">
+                        <p class="small with-line-break">
+                          <span style="display: block;">Tamanho: 30 cm.</span> 
+                          <span style="display: block;">Ave de rapina pouco observada em Barbacena, habita áreas bem arborizadas.</span>
+                          Hábil caçador, captura em voo morcegos, aves e insetos além de pequenos roedores e  lagartos que caça no solo.
+                          Costuma ficar muito tempo em poleiros bem altos como árvores mortas e postes a espreita de sua caça. 
+                          Fotografada na área da grande área florestada do N.Z.<span class="invisivel">dsdadasdasdas dasdas dsssss sssssssssssss dfdssdd ds fdfdf fdsffse fdfsdfsf fs</span>
+                        </p>
+                        <div class="text-center"> <!-- Div para centralizar o botão -->
+                          <button class="btn-success rounded-circle btn-custom-icon mt-3 play-music" data-audio="Sons_passaros/11. FALCAO-CAURE.mp3">
+                            <i class="fa fa-play fa-lg"></i>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 imagens-passaros espaco-esquerda">
+                  <div class="image-container position-relative">
+                    <img src="Imagens/12_Tie-sangue.jpg" alt="Imagem" class="img-fluid">
+                    <div class="description-container">
+                      <h5 class="text-center">Tiê-Sangue (Ramphocelus bresilia)</h5>
+                      <div class="description text-justify">
+                        <p class="small with-line-break">
+                          <span style="display: block;">Tamanho: 18 cm.</span> 
+                          <span style="display: block;">Espécie endêmica e considerada símbolo da Mata Atlântica.</span>
+                          Os machos apresentam plumagem vermelha vistosa, e as fêmeas são pardas com tons avermelhados na parte inferior. 
+                          Indivíduos jovens nascem parecidos com as fêmeas e, conforme os machos amadurecem, tornam-se vermelhos.
+                          Gostam de ambientes de borda de mata e são comumente associados a cursos da água.No campus, 
+                          costumam ser avistados no N.A e na Equoterapia, sempre próximos ao córrego que corta o local.
+                        </p>
+                        <div class="text-center"> <!-- Div para centralizar o botão -->
+                          <button class="btn-success rounded-circle btn-custom-icon mt-3 play-music" data-audio="Sons_passaros/12. TIE-SANGUE.mp3">
+                            <i class="fa fa-play fa-lg"></i>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-6 imagens-passaros espaco-esquerda">
+                  <div class="image-container position-relative">
+                    <img src="Imagens/13_Surucua_Variado.jpg" alt="Imagem" class="img-fluid">
+                    <div class="description-container">
+                      <h5 class="text-center">Surucuá-variado (Trogon surrucura)</h5>
+                      <div class="description text-justify">
+                        <p class="small with-line-break">
+                          <span style="display: block;">Tamanho: 27 cm.</span> 
+                          <span style="display: block;">Ave que pode habitar matas e cerrados.</span>
+                          Apresenta cabeça e peito azul-violeta, barriga amarela e parte superior cinza-metálica.No período reprodutivo, 
+                          tende a ser uma espécie territorialista e vocaliza longas sequências de “kwa”. No campus, costuma ser 
+                          observada na mata do NZ e também no NA.<span class="invisivel">dsdadasdasdas dasdas dsssss sssssssssssss dfdssdd  fdsfsdf fsdf  fdsfsd  fsdf sdf sdf fdsfsdf fdsfs</span>
+                        </p>
+                        <div class="text-center"> <!-- Div para centralizar o botão -->
+                          <button class="btn-success rounded-circle btn-custom-icon mt-3 play-music" data-audio="Sons_passaros/13. SURUCUA-VARIADO.mp3">
+                            <i class="fa fa-play fa-lg"></i>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 imagens-passaros espaco-esquerda">
+                  <div class="image-container position-relative">
+                    <img src="Imagens/14_Principe.jpg" alt="Imagem" class="img-fluid">
+                    <div class="description-container">
+                      <h5 class="text-center">Príncipe (Pyrocephalus rubinus)</h5>
+                      <div class="description text-justify">
+                        <p class="small with-line-break">
+                          <span style="display: block;">Tamanho: 13 cm.</span> 
+                          <span style="display: block;">Ave migratória que pode ser observada nas várzeas do N.A durante a primavera, quando retorna do norte do país para reprodução.</span>
+                          No período reprodutivo, os machos apresentam plumagem vermelha com dorso e "máscara" escura. As fêmeas e jovens são cinza-claros
+                          com listras escuras.Costuma ser avistado pousado sobre as cercas do N.A, mais comumente próximos ao córrego da equoterapia.
+                        </p>
+                        <div class="text-center"> <!-- Div para centralizar o botão -->
+                          <button class="btn-success rounded-circle btn-custom-icon mt-3 play-music" data-audio="Sons_passaros/14. PRINCIPE.mp3">
+                            <i class="fa fa-play fa-lg"></i>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 imagens-passaros espaco-esquerda">
+                  <div class="image-container position-relative">
+                    <img src="Imagens/15_Bico_Virado_Carijo.jpg" alt="Imagem" class="img-fluid">
+                    <div class="description-container">
+                      <h5 class="text-center">Bico-virado-carijó (Xenops rutilans)</h5>
+                      <div class="description text-justify">
+                        <p class="small with-line-break">
+                          <span style="display: block;">Tamanho: 12 cm.</span> 
+                          <span style="display: block;">Pequena ave florestal, prefere o interior de matas a áreas abertas.</span>
+                          No campus, pode ser observada em áreas com essas características nas matas do N.A e N.Z.O nome é oriundo
+                          do formato do bico da ave, que é curvado para cima e usado para extrair insetos, larvas e pequenos animais dos troncos das árvores.
+                          <span class="invisivel">dsdadasdasdas dasdas dsssss sssssssssssss dfdssdd </span>
+                        </p>
+                        <div class="text-center"> <!-- Div para centralizar o botão -->
+                          <button class="btn-success rounded-circle btn-custom-icon mt-3 play-music" data-audio="Sons_passaros/15. BICO-VIRADO-CARIJO.mp3">
+                            <i class="fa fa-play fa-lg"></i>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 imagens-passaros espaco-esquerda">
+                  <div class="image-container position-relative">
+                    <img src="Imagens/16_Cabure_Acanelado.jpg" alt="Imagem" class="img-fluid">
+                    <div class="description-container">
+                      <h5 class="text-center">Caburé-acanelado (Aegolius harrisii)</h5>
+                      <div class="description text-justify">
+                        <p class="small with-line-break">
+                          <span style="display: block;">Tamanho: 22 cm.</span> 
+                          <span style="display: block;">Pequena coruja de difícil avistamento e hábitos quase desconhecidos.</span>
+                          Foi registrada numa área de borda de mata do IF depois de identificado seu canto, um trinado agudo, repetitivo e acelerado. 
+                          Parece emitir seu canto logo depois do crepúsculo, momento crucial para se perceber sua presença numa área. 
+                          Depois se torna quase muda, raramente vocalizando e impossibilitando sua localização. 
+                        </p>
+                        <div class="text-center"> <!-- Div para centralizar o botão -->
+                          <button class="btn-success rounded-circle btn-custom-icon mt-3 play-music" data-audio="Sons_passaros/16. CABURE-ACANELADO.mp3">
+                            <i class="fa fa-play fa-lg"></i>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-6 imagens-passaros espaco-esquerda">
+                  <div class="image-container position-relative">
+                    <img src="Imagens/17_Tapaculo_da_Varzea.jpg" alt="Imagem" class="img-fluid">
+                    <div class="description-container">
+                      <h5 class="text-center">Tapaculo-da-várzea (Scytalopus iraiensis)</h5>
+                      <div class="description text-justify">
+                        <p class="small with-line-break">
+                          <span style="display: block;">Tamanho: 12 cm.</span> 
+                          <span style="display: block;">Pequena ave descoberta pela ciência há poucos anos no Paraná e até hoje com raros registros no Brasil. Muito escassa está em perigo de extinção na natureza.</span>
+                          A espécie foi registrada em 2016 na área do IF a partir da confirmação da sua vocalização, sendo um dos primeiros registros
+                          na bacia do Rio Grande em MG. Muito escasso, de comportamento extremamente arredio, pode ser ouvido sem que se consiga
+                          um avistamento. Dificilmente abandona a vegetação de brejo em que vive e parece se deslocar sempre pelo chão, evitando o voo.
+                        </p>
+                        <div class="text-center"> <!-- Div para centralizar o botão -->
+                          <button class="btn-success rounded-circle btn-custom-icon mt-3 play-music" data-audio="Sons_passaros/17. MACUQUINHO-DA-VARZEA.mp3">
+                            <i class="fa fa-play fa-lg"></i>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 imagens-passaros espaco-esquerda">
+                  <div class="image-container position-relative">
+                    <img src="Imagens/18_Caneleiro_Verde.jpg" alt="Imagem" class="img-fluid">
+                    <div class="description-container">
+                      <h5 class="text-center">Caneleiro-verde (Pachyramphus viridis)</h5>
+                      <div class="description text-justify">
+                        <p class="small with-line-break">
+                          <span style="display: block;">Tamanho: 14,5 cm.</span> 
+                          <span style="display: block;">Encontrado em florestas e bordas de florestas, no campus pode ser visto na mata do N.Z.</span>
+                          Os machos apresentam dorso verde-oliva e peito amarelo, barriga acinzentada e cabeça cinza com uma coroa preta.
+                          <span class="invisivel">dsdadasdasdas dasdas dsssss sssssssssssss dfdssdd fdfdfdafaf dsdasd dsad dsads ds asdasdsdd dsad dsadasd dasdasd dsaddsd dsadasd dasdad
+                            dsdasda ddasd dsada dasd dasdd dasdasda dasd ds dasdad dasdsa adasd dasda dadssd dsds sd dsadads w dsda fefe dsadasd dsdsdsd dsds dsdsd dsdsd dsdsad dsadasda dsd
+                            dsdadasda dsad ds ds s dsadasd dsadasd dsd
+                          </span>
+                        </p>
+                        <div class="text-center"> <!-- Div para centralizar o botão -->
+                          <button class="btn-success rounded-circle btn-custom-icon mt-3 play-music" data-audio="Sons_passaros/18. CANELEIRO-VERDE.mp3">
+                            <i class="fa fa-play fa-lg"></i>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 imagens-passaros espaco-esquerda">
+                  <div class="image-container position-relative">
+                    <img src="Imagens/19_Tucano_de_bico_Verde.jpg" alt="Imagem" class="img-fluid">
+                    <div class="description-container">
+                      <h5 class="text-center">Tucano-de-bico-verde (Ramphastos dicolorus)</h5>
+                      <div class="description text-justify">
+                        <p class="small with-line-break">
+                          <span style="display: block;">Tamanho: 45 cm.</span> 
+                          <span style="display: block;">Podem ser vistos em bandos e às vezes solitários por todo o campus, porém é mais comum próximo às áreas de mata.</span>
+                          Diferencia-se do tucano mais conhecido, o Tucanuçu (Ramphastos toco), pela cor esverdeada do bico, tamanho menor do bico e
+                          cores do peito. <span class="invisivel">dsdadasdasdas dasdas dsssss sssssssssssss dfdssdd </span>
+                        </p>
+                        <div class="text-center"> <!-- Div para centralizar o botão -->
+                          <button class="btn-success rounded-circle btn-custom-icon mt-3 play-music" data-audio="Sons_passaros/19. TUCANO-DE-BICO-VERDE.mp3">
+                            <i class="fa fa-play fa-lg"></i>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 imagens-passaros espaco-esquerda">
+                  <div class="image-container position-relative">
+                    <img src="Imagens/20_Saira_Amarela.jpg" alt="Imagem" class="img-fluid">
+                    <div class="description-container">
+                      <h5 class="text-center">Saíra-Amarela (Stilpnia cayana)</h5>
+                      <div class="description text-justify">
+                        <p class="small with-line-break">
+                          <span style="display: block;">Tamanho: 15 cm.</span> 
+                          <span style="display: block;">Espécie que habita matas abertas, ciliares, praças e jardins.</span>
+                          Pode ser vista frequentemente em quintais, principalmente em locais que possuam árvores frutíferas e comedouros.
+                          O peito e parte da cabeça são escuros, as asas são azuladas e o restante do corpo é amarelo, o que chama a atenção. 
+                          As fêmeas apresentam tons acinzentados e amarelos fracos, com asas verdes.
+                        </p>
+                        <div class="text-center"> <!-- Div para centralizar o botão -->
+                          <button class="btn-success rounded-circle btn-custom-icon mt-3 play-music" data-audio="Sons_passaros/08. ANU-PRETO.mp3">
+                            <i class="fa fa-play fa-lg"></i>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>                    
-      </div>
-    </main>
+        
+          <!-- Ícone personalizado para a seta esquerda -->
+          <a class="carousel-control-prev" href="#birdCarousel" role="button" data-slide="prev">
+            <div class="custom-carousel-icon-prev">
+              <div class="icon-background">
+                <i class="fas fa-chevron-left"></i>
+              </div>
+            </div>
+            <span class="sr-only">Anterior</span>
+          </a>
+
+          <!-- Ícone personalizado para a seta direita -->
+          <a class="carousel-control-next" href="#birdCarousel" role="button" data-slide="next">
+            <div class="custom-carousel-icon-next">
+              <div class="icon-background">
+                <i class="fas fa-chevron-right"></i>
+              </div>
+            </div>
+            <span class="sr-only">Próximo</span>
+          </a>
+
+
+        </div>
+      </div>                    
+    </div>
+  </main>
 
     <!-- Rodapé -->
     <footer class="text-center text-lg-start text-muted">

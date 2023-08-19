@@ -15,24 +15,24 @@
 <body>
     <!-- Cabeçalho -->
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-success">
-        <div class="container-fluid container">
-          <a class="navbar-brand" href="./index.html">
-              <img src="Imagens/ifaves.jpg" alt="Logo" width="50" height="50">
-          </a>
-          <form class="d-flex" role="search" onsubmit="return search()">
-            <input id="search-text" class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-            <button id="search-btn" class="btn btn-outline-success bg-white ml-2" type="submit">
-              <span class="material-icons">search</span>
-            </button>
-          </form>        
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link text-white" href="./especies.html">Espécies</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-success">
+          <div class="container-fluid container">
+            <a class="navbar-brand" href="./index.html">
+                <img src="Imagens/ifaves.jpg" alt="Logo" width="50" height="50">
+            </a>
+            <a class="nav-link text-white" href="./especies.html">Espécies</a>
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <form class="d-flex" role="search" onsubmit="return search()">
+                  <input id="search-text" class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                  <button id="search-btn" class="btn btn-outline-success bg-white ml-2" type="submit">
+                    <span class="material-icons">search</span>
+                  </button>
+                </form>
+              </li>
+            </ul>
+          </div>
+        </nav>
     </header>
 
     <!-- Conteúdo principal -->
