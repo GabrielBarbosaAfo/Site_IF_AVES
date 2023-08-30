@@ -89,7 +89,7 @@ margin: 0;
 /* Estilo personalizado para o botão com ícone */
 .btn-custom-icon {
 background-color: #19882c; /* Cor verde */
-padding: 15px; /* Espaçamento interno para aumentar o tamanho do botão */
+padding: 17px; /* Espaçamento interno para aumentar o tamanho do botão */
 font-size: 24px; /* Tamanho do ícone */
 line-height: 1; /* Centralizar verticalmente o ícone */
 border: none; /* Remover a borda do botão */
@@ -109,6 +109,7 @@ width: 40px; /* Largura do ícone */
 height: 40px; /* Altura do ícone */
 border-radius: 50%; /* Transforma o ícone em um círculo */
 overflow: hidden; /* Garante que o conteúdo dentro do círculo não vaze */
+top: -25px;
 }
 
 .icon-background {
