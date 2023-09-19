@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    }
+    
+    #search-btn {
+    font-size: 0%;
+    }
+    
+    #search-btn:hover,
+    #search-btn:active {
+    background-color: #006400 !important;
+    color: #fff !important;
+    }
+    
+    .separar-linhas {
+    white-space: pre-line;
+    }
+    
+    .separa {
+    white-space: pre-wrap;
+    }
+    
+    .titulo-estilizado {
+    font-family: "Montserrat", sans-serif; /* Fonte*/
+    font-size: 36px; /* Tamanho da fonte */
+    color: black; /* Cor do texto */
+    /*text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra de texto */
+    margin-top: 20px; /* Margem superior para dar espaço */
+    /*font-weight: bold; /* Texto em negrito */
+    /*text-transform: uppercase; /* Transforma o texto em maiúsculas */
+    /*text-align: center; /* Centralizar o texto */
+    }
+    
+    .subtitulo-estilizado{
+    font-family: "Montserrat", sans-serif; /* Fonte*/
+    /*font-size: 36px; /* Tamanho da fonte */
+    color: black; /* Cor do texto */
+    /*text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra de texto */
+    /*margin-top: 20px; /* Margem superior para dar espaço */
+    /*font-weight: bold; /* Texto em negrito */
+    /*text-transform: uppercase; /* Transforma o texto em maiúsculas */
+    /*text-align: center; /* Centralizar o texto */  
+    }
+    
+    footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #19882c; /* Cor de fundo do footer, você pode alterar conforme desejado */
+    padding: 10px; /* Espaçamento interno do footer, você pode ajustar conforme desejado */
+    }
