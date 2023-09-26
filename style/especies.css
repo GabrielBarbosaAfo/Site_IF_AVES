@@ -36,12 +36,43 @@ text-align: left; /* Alinha o conteúdo do contêiner à esquerda */
 margin: 0; /* Remove margens padrão do parágrafo para ficar alinhado corretamente */
 }
 
-footer {
-left: 0;
-bottom: 0;
-width: 100%;
-background-color: #19882c; /* Cor de fundo do footer, você pode alterar conforme desejado */
-padding: 10px; /* Espaçamento interno do footer, você pode ajustar conforme desejado */
+/* Estilizando o footer */
+.footer {
+background-color: #19882c;
+color: #fff;
+padding: 20px 0;
+}
+
+/* Estilizando o texto do footer */
+.footer p {
+font-size: 24px;
+margin: 0;
+}
+
+/* Estilizando a lista de contatos */
+.contact-list {
+list-style: none;
+padding: 0;
+}
+
+.contact-list li {
+margin-bottom: 10px;
+font-size: 18px;
+}
+
+.contact-list a {
+color: #fff;
+text-decoration: none;
+}
+
+.contact-list a:hover {
+text-decoration: underline;
+}
+
+.contact-list img {
+width: 20px; /* Ajuste o tamanho da imagem conforme necessário */
+height: 20px;
+margin-right: 10px; /* Adiciona um espaço entre a imagem e o texto do contato */
 }
 
 /* Ajuste para telas menores que 768px */

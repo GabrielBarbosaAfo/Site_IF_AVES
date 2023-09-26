@@ -130,14 +130,45 @@ font-size: 25px; /* Tamanho do ícone */
 color: #fff; /* Cor da seta */
 }
 
-
-footer {
+/* Estilizando o footer */
+.footer {
 background-color: #19882c;
 color: #fff;
-text-align: center;
-font-size: 24px;
+padding: 20px 0;
 }
 
+/* Estilizando o texto do footer */
+.footer p {
+font-size: 24px;
+margin: 0;
+}
+
+/* Estilizando a lista de contatos */
+.contact-list {
+list-style: none;
+padding: 0;
+}
+
+.contact-list li {
+margin-bottom: 10px;
+font-size: 18px;
+}
+
+.contact-list a {
+color: #fff;
+text-decoration: none;
+}
+
+.contact-list a:hover {
+text-decoration: underline;
+}
+
+.contact-list img {
+width: 20px; /* Ajuste o tamanho da imagem conforme necessário */
+height: 20px;
+margin-right: 10px; /* Adiciona um espaço entre a imagem e o texto do contato */
+}
+  
 .imagens-passaros {
 margin: 0;
 padding: 0;
