@@ -52,6 +52,7 @@ text-align: center; /* Centralizar o texto */
 font-family: "Montserrat", sans-serif;
 color: black;
 text-align: justify;
+text-indent: 60px;
 }
 
 .custom-text {

@@ -51,6 +51,10 @@ color: black;
 text-align: justify;
 }
 
+.paragrafo-identado{
+text-indent: 40px;
+}
+
   /* Estilizando o footer */
 .footer {
 background-color: #19882c;
