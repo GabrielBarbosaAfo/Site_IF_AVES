@@ -79,30 +79,34 @@ margin: 0; /* Remove margens padrão do parágrafo para ficar alinhado corretame
 
 /* Estilizando o footer */
 .footer {
-    background-color: #19882c;
-    color: white;
-    padding: 20px 0;
-    }
-    
-    .contact-list li {
-    margin-bottom: 10px;
-    font-size: 18px;
-    }
-    
-    .contact-list a {
-    color: white;
-    text-decoration: none;
-    }
-    
-    .contact-list a:hover {
-    text-decoration: underline;
-    }
-    
-    .contact-list img {
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
-    }
+background-color: #19882c;
+color: white;
+padding: 20px 0;
+}
+
+.contact-list li {
+margin-bottom: 10px;
+font-size: 18px;
+}
+
+.contact-list a {
+color: white;
+text-decoration: none;
+}
+
+.contact-list a:hover {
+text-decoration: underline;
+}
+
+.contact-list img {
+width: 20px;
+height: 20px;
+margin-right: 10px;
+}
+
+.campus-info {
+font-size: 24px; 
+}
 
 /* Ajuste para telas menores que 768px */
 @media (max-width: 767px) {
