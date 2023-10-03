@@ -5,6 +5,129 @@ text-decoration: none;
 box-sizing: border-box;
 }
 
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #19882c;
+  color: white;
+  padding: 10px 0;
+}
+
+.navbar {
+  background-color: transparent !important;
+}
+
+.navbar-brand img {
+  max-width: 100%;
+  height: auto;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.nav-link:hover {
+  text-decoration: underline !important;
+}
+
+.form-control {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+.form-control::placeholder {
+  color: white;
+}
+
+/* Títulos */
+.titulo-estilizado {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+/* Parágrafos */
+.paragrafo-estilizado {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.paragrafo-identado {
+  text-indent: 40px;
+}
+
+/* Seção de Notícias */
+.noticias-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.noticia {
+  flex: 0 0 calc(33.333% - 20px);
+  margin-bottom: 20px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.noticia:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.noticia h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.noticia p {
+  font-size: 16px;
+}
+
+.noticia img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+/* Rodapé */
+.footer {
+  background-color: #19882c;
+  color: white;
+  padding: 20px 0;
+}
+
+.contact-list li {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.contact-list a {
+  color: white;
+  text-decoration: none;
+}
+
+.contact-list a:hover {
+  text-decoration: underline;
+}
+
+.contact-list img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
 #search-btn {
 font-size: 0%;
 }
@@ -23,73 +146,3 @@ white-space: pre-line;
 white-space: pre-wrap;
 }
 
-.titulo-estilizado {
-font-family: "Montserrat", sans-serif; /* Fonte*/
-font-size: 36px; /* Tamanho da fonte */
-color: black; /* Cor do texto */
-/*text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra de texto */
-margin-top: 20px; /* Margem superior para dar espaço */
-/*font-weight: bold; /* Texto em negrito */
-/*text-transform: uppercase; /* Transforma o texto em maiúsculas */
-/*text-align: center; /* Centralizar o texto */
-}
-
-.subtitulo-estilizado{
-font-family: "Montserrat", sans-serif; /* Fonte*/
-/*font-size: 36px; /* Tamanho da fonte */
-color: black; /* Cor do texto */
-/*text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra de texto */
-/*margin-top: 20px; /* Margem superior para dar espaço */
-font-weight: bold; /* Texto em negrito */
-/*text-transform: uppercase; /* Transforma o texto em maiúsculas */
-/*text-align: center; /* Centralizar o texto */  
-}
-
-.paragrafo-estilizado{
-font-family: "Montserrat", sans-serif;
-color: black;
-text-align: justify;
-}
-
-.paragrafo-identado{
-text-indent: 40px;
-}
-
-  /* Estilizando o footer */
-.footer {
-background-color: #19882c;
-color: #fff;
-padding: 20px 0;
-}
-
-/* Estilizando o texto do footer */
-.footer p {
-font-size: 24px;
-margin: 0;
-}
-
-/* Estilizando a lista de contatos */
-.contact-list {
-list-style: none;
-padding: 0;
-}
-
-.contact-list li {
-margin-bottom: 10px;
-font-size: 18px;
-}
-
-.contact-list a {
-color: #fff;
-text-decoration: none;
-}
-
-.contact-list a:hover {
-text-decoration: underline;
-}
-
-.contact-list img {
-width: 20px; /* Ajuste o tamanho da imagem conforme necessário */
-height: 20px;
-margin-right: 10px; /* Adiciona um espaço entre a imagem e o texto do contato */
-}

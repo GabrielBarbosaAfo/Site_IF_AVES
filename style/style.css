@@ -6,7 +6,44 @@ box-sizing: border-box;
 }
 
 body {
-min-width: 300px;
+font-family: "Montserrat", sans-serif;
+background-color: #f8f8f8;
+color: #333;
+}
+
+/* Cabeçalho */
+header {
+background-color: #19882c;
+color: white;
+padding: 10px 0;
+}
+
+.navbar {
+background-color: transparent !important;
+}
+
+.navbar-brand img {
+max-width: 100%;
+height: auto;
+}
+
+
+.nav-link {
+color: white !important;
+}
+
+.nav-link:hover {
+text-decoration: underline !important;
+}
+
+.form-control {
+background-color: transparent;
+border: 1px solid white;
+color: white;
+}
+
+.form-control::placeholder {
+color: white;
 }
 
 .links-info:hover,
@@ -134,20 +171,8 @@ color: #fff; /* Cor da seta */
 /* Estilizando o footer */
 .footer {
 background-color: #19882c;
-color: #fff;
+color: white;
 padding: 20px 0;
-}
-
-/* Estilizando o texto do footer */
-.footer p {
-font-size: 24px;
-margin: 0;
-}
-
-/* Estilizando a lista de contatos */
-.contact-list {
-list-style: none;
-padding: 0;
 }
 
 .contact-list li {
@@ -156,7 +181,7 @@ font-size: 18px;
 }
 
 .contact-list a {
-color: #fff;
+color: white;
 text-decoration: none;
 }
 
@@ -165,11 +190,11 @@ text-decoration: underline;
 }
 
 .contact-list img {
-width: 20px; /* Ajuste o tamanho da imagem conforme necessário */
+width: 20px;
 height: 20px;
-margin-right: 10px; /* Adiciona um espaço entre a imagem e o texto do contato */
+margin-right: 10px;
 }
-  
+
 .imagens-passaros {
 margin: 0;
 padding: 0;
