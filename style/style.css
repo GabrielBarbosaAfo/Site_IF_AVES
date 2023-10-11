@@ -248,6 +248,12 @@ color: rgba(76,76,76,255);
     }
 }
 
+@media screen and (max-width: 425px) {
+    .navbar-nav{
+      width: 100%;
+    }
+}
+
 /* Estilos para dispositivos grandes (maiores que 768px) até 992px */
 @media (min-width: 769px) and (max-width: 992px) {
     .titulo-estilizado {
@@ -261,6 +267,39 @@ color: rgba(76,76,76,255);
     .imagens-passaros {
         margin-bottom: 30px; /* Espaçamento entre as imagens */
     }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+      padding: 5px 0;
+    }
+  
+    .navbar-brand img {
+      max-width: 100px;
+      margin-left: 5px;
+    }
+  
+    
+    .form-control {
+      width: 100%;
+    }
+  
+    .navbar-brand{
+      margin-bottom: 15px;
+    }
+
+    .navbar-nav{
+      margin-right: 5px;
+    }
+  
+    .d-flex{
+      margin-left: 5px;
+    }
+
+    .image-container{
+        margin-bottom: 20px;
+    }
+  
 }
 
 /* Estilos para dispositivos ainda maiores (maiores que 992px) */

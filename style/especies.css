@@ -108,38 +108,42 @@ margin-right: 10px;
 font-size: 24px; 
 }
 
-/* Ajuste para telas menores que 768px */
-@media (max-width: 767px) {
+/* Estilos para telas pequenas (até 768px) */
+@media screen and (max-width: 768px) {
     .navbar {
-        flex-direction: column;
-        text-align: center;
+      padding: 5px 0;
     }
+  
+    .navbar-brand img {
+      max-width: 100px;
+      margin-left: 5px;
+    }
+  
     
-    .image-container {
-        text-align: center;
+    .form-control {
+      width: 100%;
     }
-    
-    .footer {
-        text-align: center;
+  
+    .navbar-brand{
+      margin-bottom: 15px;
     }
-}
 
-/* Ajuste para telas menores que 576px (como 320px) */
-@media (max-width: 575px) {
-    .navbar {
-        padding: 10px; /* Ajuste de espaçamento para telas pequenas */
+    .navbar-nav{
+      margin-right: 5px;
     }
-    
-    .image-container {
-        padding: 10px; /* Ajuste de espaçamento para telas pequenas */
+  
+    .d-flex{
+      margin-left: 5px;
     }
-    
-    .footer {
-        padding: 10px; /* Ajuste de espaçamento para telas pequenas */
+
+    .image-container{
+        margin-bottom: 20px;
     }
-    
-    /* Ajuste de fonte para telas pequenas */
-    h1, p, a {
-        font-size: 16px;
+  
+}
+  
+@media screen and (max-width: 425px) {
+    .navbar-nav{
+      width: 100%;
     }
 }
