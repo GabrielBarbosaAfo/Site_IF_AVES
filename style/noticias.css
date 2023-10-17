@@ -165,6 +165,10 @@ height: 200px;
   color: black;
 }
 
+.imagem-noticia{
+  margin-top: 10em;
+}
+
 /* Estilos para telas pequenas (até 768px) */
 @media screen and (max-width: 768px) {
   header {
