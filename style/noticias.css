@@ -169,6 +169,29 @@ height: 200px;
   margin-top: 10em;
 }
 
+.mais-noticias-link {
+  margin-top: 30px;
+  text-align: right;
+}
+
+.seta-noticias {
+  display: inline-block;
+  background-color: #19882c; /* Cor do fundo verde */
+  color: #ffffff; /* Cor do texto (se a seta for colorida) */
+  padding: 5px 17px; /* Ajuste o espaçamento interno para aumentar a largura do plano de fundo */
+  border-radius: 3px; /* Borda arredondada do fundo verde */
+  text-decoration: none; /* Remover sublinhado mesmo quando não há hover */
+}
+
+a.mais-noticias {
+  text-decoration: none; /* Remover sublinhado padrão */  
+  font-size: 25px; /* Ajuste o tamanho da fonte conforme necessário */
+}
+
+.mais-noticias-link a.mais-noticias:hover .seta-noticias {
+  background-color: #006400; /* Cor de destaque ao passar o mouse */
+}
+
 /* Estilos para telas pequenas (até 768px) */
 @media screen and (max-width: 768px) {
   header {
