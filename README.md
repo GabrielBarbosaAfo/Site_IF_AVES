@@ -27,7 +27,7 @@ A aba de noticas se encontra as principais noitcias no projeto, como a data da p
 
 <br>
 
-![image](https://github.com/GabrielBarbosaAfo/Site_IF_AVES/assets/112981494/24b9f76d-c09f-4925-898e-a46dddc57d05)
+![image](https://github.com/GabrielBarbosaAfo/Site_IF_AVES/assets/112981494/6979140e-dcb0-43f1-bebb-757b721dc32f)
 
 ## Ferramentas Utilizadas
 O projeto foi desenvolvido utilizando as seguintes tecnologias:
