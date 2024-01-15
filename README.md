@@ -5,19 +5,21 @@ das aves locais no campus, promovendo a conscientização ambiental e o conhecim
 ## Uso
 Visite o [IF-Aves](https://gabrielbarbosaafo.github.io/Site_IF_AVES/) para começar a explorar as aves locais do campus. O site oferece informações sobre as diferentes espécies, suas características e cantos, além de fornecer uma galeria de imagens para facilitar a identificação.
 
-O site conta com uma descrição da ave, sua imgame e seu canto.
+O site conta com uma descrição da ave, sua imagem e seu canto.
 
 ![image](https://github.com/GabrielBarbosaAfo/Site_IF_AVES/assets/112981494/84f39053-09ab-475f-8fd6-a5cf16338827)
 
 <br>
 
-Alem da pagina principas do site, a tambem duas abas sendo elas as de noticas e epecias.
-A aba de especies é onde se encontra as principais epécies avistadas no IF-Barbacena
+Alem da página principal do site, há também duas abas sendo elas as de notícias e espécies.
+
+A aba de espécies é onde se encontram as principais espécies avistadas no IF-Barbacena.
+
 ![image](https://github.com/GabrielBarbosaAfo/Site_IF_AVES/assets/112981494/cc25eebe-08fa-4506-9c87-df2abb8b049e)
 
 <br>
 
-A aba de noticas se encontra as principais noitcias no projeto, como a data da proxima observação de aves, como surgiu o projeto e caso a pessoa queria participar de uma passarinhada ela pode se inscrever pelo qr-code.
+A aba de notícias contém as principais notícias do projeto, como a data da próxima observação de aves, como surgiu o projeto e caso a pessoa queira participar de uma passarinhada, ela pode se inscrever pelo QR-code.
 
 ![image](https://github.com/GabrielBarbosaAfo/Site_IF_AVES/assets/112981494/2b7c44a0-0ef1-4ffb-8460-1940e572cf2e)
 
